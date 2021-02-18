@@ -1,0 +1,32 @@
+<html>
+<h1>Initializing 2D Arrays</h1>
+<p>
+    Like their one-dimensional counterparts, two-dimensional arrays can be initialized to default values or, if
+    values are known in advance, an array initializer can be written into the source code.
+</p>
+<h2>Initializing 2D Arrays To Default Values</h2>
+<p>In the two-parameter constructor shown at left, we see an array initialized to the given dimensions.  The
+    contents of the created array remain at the default for the array's element type -- for integers, 0.
+</p>
+<h2>Initializing 2D Arrays Using an Array Initializer</h2>
+<p>In the no-argument constructor shown at left, an array initializer sets the values of the array to predetermined values.
+    The dimensions of the array are inferred directly from the initializer.  Here, the resulting array will
+    hold three rows, each containing 4 columns.
+</p>
+<h2>Expressions Involving 2D Arrays</h2>
+<p>Assume <code>nums</code> has been initialized using one of the two constructors.
+</p><ul>
+    <li> nums refers to the entire 2D array, itself</li>
+    <li> nums.length refers to the length of the outer array (number of rows)</li>
+    <li> nums[0].length refers to the length of an inner array (number of columns for row 0)</li>
+    <li> nums[i] refers to the i-th row in the array</li>
+    <li> there is no mechanism for referring to the i-th column in the array</li>
+</ul>
+<h2>Jagged/Ragged Arrays</h2>
+<p>It is possible to create an array of arrays where each row has a different number
+of columns.  The resulting array is referred to as a "jagged" or "ragged" array.  More information can be
+found at <a href="https://en.wikipedia.org/wiki/Jagged_array#:~:text=In%20computer%20science%2C%20a%20ragged,edges%20when%20visualized%20as%20output"> this Wikipedia article </a>
+    or <a href="https://www.geeksforgeeks.org/jagged-array-in-java/"> at GeeksForGeeks</a> </p>
+<h2>Finishing This Task</h2>
+<p>Drop a breakpoint into the main method and observe the structures produced during execution.</p>
+</html>

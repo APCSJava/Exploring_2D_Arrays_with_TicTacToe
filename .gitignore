@@ -1,0 +1,4 @@
+# Project exclude paths
+/.coursecreator/
+/.gradle/
+/Working with arrays/Dimensioning arrays/build/

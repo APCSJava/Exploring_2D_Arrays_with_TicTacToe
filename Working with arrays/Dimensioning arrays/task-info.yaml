@@ -1,0 +1,11 @@
+type: edu
+files:
+- name: test/Tests.java
+  visible: false
+- name: src/FourArrays.java
+  visible: true
+  placeholders:
+  - offset: 324
+    length: 213
+    placeholder_text: /* initialize each field, as described */
+solution_hidden: true
