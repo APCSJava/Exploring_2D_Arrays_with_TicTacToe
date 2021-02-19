@@ -73,9 +73,9 @@ public class Tests {
         String feedFalse = "Claimed array location (%s, %s) should return false.";
         for (int r = 0; r < arr.length; r++) {
             for (int c = 0; c < arr[r].length; c++) {
-                assertTrue(String.format(feedTrue, r, c), t.checkAvailable(r, c));
+                assertTrue(String.format(feedTrue, r, c), t.checkEmpty(r, c));
                 t.place(Math.random() < 0.5 ? 1 : 2, r, c);
-                assertFalse(String.format(feedFalse, r, c), t.checkAvailable(r, c));
+                assertFalse(String.format(feedFalse, r, c), t.checkEmpty(r, c));
             }
         }
     }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":TicTacToe-Checking_spot_empty:main" external.linked.project.path="$MODULE_DIR$/../../../../TicTacToe/Checking spot empty" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Exploring_2D_Arrays_with_TicTacToe" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.util.main" />
+  </component>
+</module>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":TicTacToe-Checking_spot_empty:test" external.linked.project.path="$MODULE_DIR$/../../../../TicTacToe/Checking spot empty" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Exploring_2D_Arrays_with_TicTacToe" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/src/test" />
+    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Checking spot empty/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Checking_spot_empty.main" />
+    <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.util.main" />
+    <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.util.test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Checking_spot_empty.main" />
+</module>

@@ -12,11 +12,11 @@ files:
       file: src/TicTacToe.java
       placeholder: 1
       is_visible: false
-  - offset: 453
-    length: 781
+  - offset: 350
+    length: 806
     placeholder_text: /* return the number of the winning player or -1 if no winner
       */
-  - offset: 1325
+  - offset: 1225
     length: 31
     placeholder_text: /* return true if space is available */
     dependency:
@@ -25,8 +25,8 @@ files:
       file: src/TicTacToe.java
       placeholder: 2
       is_visible: false
-  - offset: 1429
-    length: 26
+  - offset: 1329
+    length: 28
     placeholder_text: /* assign the player's value to the board */
     dependency:
       lesson: TicTacToe
@@ -34,8 +34,8 @@ files:
       file: src/TicTacToe.java
       placeholder: 3
       is_visible: false
-  - offset: 1555
-    length: 187
+  - offset: 1457
+    length: 195
     placeholder_text: /* TODO */
     dependency:
       lesson: TicTacToe
@@ -45,3 +45,9 @@ files:
       is_visible: false
 - name: test/Tests.java
   visible: false
+- name: src/Runner.java
+  visible: false
+  placeholders:
+  - offset: 76
+    length: 61
+    placeholder_text: /* create an instance of the TicTacToe class and print it */

@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/TicTacToe/Checking game won/src/TicTacToe.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/TicTacToe/Checking spot empty/src/TicTacToe.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/TicTacToe/Using a runner class/src/Runner.java">
           <value>
             <Attribute>

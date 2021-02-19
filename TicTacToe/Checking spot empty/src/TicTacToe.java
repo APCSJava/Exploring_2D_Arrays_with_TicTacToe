@@ -8,7 +8,7 @@ public class TicTacToe {
         board = new int[3][3];
     }
 
-    public boolean checkAvailable(int row, int column) {
+    public boolean checkEmpty(int row, int column) {
         return board[row][column] == 0;
     }
 
