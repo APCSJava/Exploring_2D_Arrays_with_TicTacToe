@@ -12,9 +12,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/TicTacToe/Stage 1 of 1" />
+            <option value="$PROJECT_DIR$/TicTacToe/Stage 2 of 2" />
             <option value="$PROJECT_DIR$/Working with arrays/Dimensioning arrays" />
             <option value="$PROJECT_DIR$/Working with arrays/Initializing arrays" />
-            <option value="$PROJECT_DIR$/Working with arrays/task1" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

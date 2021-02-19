@@ -1,7 +1,0 @@
-type: edu
-files:
-- name: test/Tests.java
-  visible: false
-- name: src/TicTacToe.java
-  visible: true
-custom_name: Beginning TicTacToe

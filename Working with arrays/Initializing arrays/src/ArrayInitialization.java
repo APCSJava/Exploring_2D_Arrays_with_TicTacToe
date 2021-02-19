@@ -7,7 +7,7 @@ public class ArrayInitialization {
         nums = new int[numRows][numColumns];
     }
 
-    /* sses an array initializer to set the contents of a 3x4 array */
+    /* uses an array initializer to set the contents of a 3x4 array */
     public ArrayInitialization() {
         nums = new int[][]{{1, 2, 3, 4}, {4, 5, 6, 7}, {7, 8, 9, 10}};
     }
@@ -43,5 +43,6 @@ public class ArrayInitialization {
         ArrayInitialization a1 = new ArrayInitialization(); // examine nums
         ArrayInitialization a2 = new ArrayInitialization(2, 3); // examine nums
         int[][] jagged = createJaggedArray();
+        System.out.println("Check - did you use debug mode or just click 'Run'?");
     }
 }

@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/TicTacToe.java
+  visible: true
+  placeholders:
+  - offset: 87
+    length: 22
+    placeholder_text: /* initialize the field board to a 3 x 3 grid */
+- name: test/Tests.java
+  visible: false

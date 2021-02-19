@@ -1,0 +1,19 @@
+type: edu
+files:
+- name: src/TicTacToe.java
+  visible: true
+  placeholders:
+  - offset: 87
+    length: 22
+    placeholder_text: /* TODO */
+    dependency:
+      lesson: TicTacToe
+      task: Stage 1 of 1
+      file: src/TicTacToe.java
+      placeholder: 1
+      is_visible: false
+  - offset: 182
+    length: 26
+    placeholder_text: /* assign the player's value to the board */
+- name: test/Tests.java
+  visible: false
