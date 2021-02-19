@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class ArrayInitialization {
 
     private int[][] nums;
