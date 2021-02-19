@@ -8,12 +8,15 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="15" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/TicTacToe/Stage 1 of 1" />
+            <option value="$PROJECT_DIR$/TicTacToe/Initializing the board" />
             <option value="$PROJECT_DIR$/TicTacToe/Stage 2 of 2" />
+            <option value="$PROJECT_DIR$/TicTacToe/Stage 2a" />
+            <option value="$PROJECT_DIR$/TicTacToe/Stage 3 of 3" />
+            <option value="$PROJECT_DIR$/TicTacToe/Stage 4 of 4" />
             <option value="$PROJECT_DIR$/Working with arrays/Dimensioning arrays" />
             <option value="$PROJECT_DIR$/Working with arrays/Initializing arrays" />
             <option value="$PROJECT_DIR$/util" />

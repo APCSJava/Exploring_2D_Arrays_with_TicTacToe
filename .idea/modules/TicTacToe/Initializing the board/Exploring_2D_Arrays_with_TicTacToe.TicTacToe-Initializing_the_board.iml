@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":TicTacToe-Initializing_the_board" external.linked.project.path="$MODULE_DIR$/../../../../TicTacToe/Initializing the board" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Exploring_2D_Arrays_with_TicTacToe" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Initializing the board">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Initializing the board/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Initializing the board/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Initializing the board/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

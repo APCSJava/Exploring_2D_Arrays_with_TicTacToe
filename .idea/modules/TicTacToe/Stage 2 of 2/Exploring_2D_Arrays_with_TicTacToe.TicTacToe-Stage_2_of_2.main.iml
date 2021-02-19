@@ -3,9 +3,7 @@
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/src">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/src" isTestSource="false" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/src" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.util.main" />

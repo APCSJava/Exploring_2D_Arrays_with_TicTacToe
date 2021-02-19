@@ -4,9 +4,7 @@
     <output-test url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/test" isTestSource="true" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../TicTacToe/Stage 2 of 2/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Stage_2_of_2.main" />

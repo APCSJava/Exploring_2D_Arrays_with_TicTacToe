@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class TicTacToe {
 
     private int[][] board;
@@ -12,5 +14,12 @@ public class TicTacToe {
 
     public int[][] getBoard() {
         return board;
+    }
+
+    public String toString() {
+        String row0 = Arrays.toString(board[0]);
+        String row1 = Arrays.toString(board[1]);
+        String row2 = Arrays.toString(board[2]);
+        return row0+"\n"+row1+"\n"+row2;
     }
 }
