@@ -57,7 +57,7 @@ public class Tests {
     t.place(1, 0, 0);
     t.place(2, 1, 1);
     t.place(3, 2, 2);
-    String result = t.toString();
+    String result = t.toString().trim(); // allow them an extra line return
     int[][] test = {{1, 0, 0}, {0, 2, 0}, {0, 0, 3}};
     String expected = Arrays.toString(test[0])+"\n"+Arrays.toString(test[1])+"\n"+Arrays.toString(test[2]);
     assertEquals("Check string formatting", expected, result);
