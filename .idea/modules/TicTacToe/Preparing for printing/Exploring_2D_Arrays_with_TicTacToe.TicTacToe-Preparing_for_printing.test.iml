@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":TicTacToe-Preparing_for_printing:test" external.linked.project.path="$MODULE_DIR$/../../../../TicTacToe/Preparing for printing" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Exploring_2D_Arrays_with_TicTacToe" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../../../TicTacToe/Preparing for printing/out/test/classes" />
     <exclude-output />
@@ -9,11 +9,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Stage_2a.main" />
+    <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Preparing_for_printing.main" />
     <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.util.main" />
     <orderEntry type="module" module-name="Exploring_2D_Arrays_with_TicTacToe.util.test" production-on-test="" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Stage_2a.main" />
+  <component name="TestModuleProperties" production-module="Exploring_2D_Arrays_with_TicTacToe.TicTacToe-Preparing_for_printing.main" />
 </module>

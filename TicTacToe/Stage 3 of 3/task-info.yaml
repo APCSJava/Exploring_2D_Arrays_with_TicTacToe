@@ -35,3 +35,9 @@ files:
       is_visible: false
 - name: test/Tests.java
   visible: false
+- name: src/Runner.java
+  visible: false
+  placeholders:
+    - offset: 76
+      length: 61
+      placeholder_text: /* create an instance of the TicTacToe class and print it */

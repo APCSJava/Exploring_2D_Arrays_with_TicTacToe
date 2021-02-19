@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":TicTacToe-Preparing_for_printing:main" external.linked.project.path="$MODULE_DIR$/../../../../TicTacToe/Preparing for printing" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Exploring_2D_Arrays_with_TicTacToe" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../../../TicTacToe/Preparing for printing/out/production/classes" />
     <exclude-output />
