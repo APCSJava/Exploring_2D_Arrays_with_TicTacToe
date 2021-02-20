@@ -5,49 +5,31 @@ files:
   placeholders:
   - offset: 113
     length: 22
-    placeholder_text: /* TODO */
+    placeholder_text: /* initialize 'board' to a 3 x 3 grid */
     dependency:
       lesson: TicTacToe
-      task: Using a runner class
+      task: Initializing the board
       file: src/TicTacToe.java
       placeholder: 1
       is_visible: false
-  - offset: 453
-    length: 781
-    placeholder_text: /* return the number of the winning player or -1 if no winner
-      */
+  - offset: 208
+    length: 26
+    placeholder_text: /* assign player to the row and column given */
     dependency:
       lesson: TicTacToe
-      task: Using a runner class
+      task: Recording a play
       file: src/TicTacToe.java
       placeholder: 2
       is_visible: false
-  - offset: 1325
-    length: 31
-    placeholder_text: /* return true if space is available */
+  - offset: 342
+    length: 179
+    placeholder_text: /* build and return a string that will display the requested
+      data */
     dependency:
       lesson: TicTacToe
-      task: Using a runner class
+      task: Preparing for printing
       file: src/TicTacToe.java
       placeholder: 3
-      is_visible: false
-  - offset: 1429
-    length: 26
-    placeholder_text: /* assign the player's value to the board */
-    dependency:
-      lesson: TicTacToe
-      task: Using a runner class
-      file: src/TicTacToe.java
-      placeholder: 4
-      is_visible: false
-  - offset: 1555
-    length: 187
-    placeholder_text: /* TODO */
-    dependency:
-      lesson: TicTacToe
-      task: Using a runner class
-      file: src/TicTacToe.java
-      placeholder: 5
       is_visible: false
 - name: test/output.txt
   visible: false

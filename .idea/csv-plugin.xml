@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/TicTacToe/Checking board full/src/TicTacToe.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/TicTacToe/Checking game draw/src/TicTacToe.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/TicTacToe/Checking game won/src/TicTacToe.java">
           <value>
             <Attribute>
@@ -17,7 +31,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/TicTacToe/Initializing the board/src/TicTacToe.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/TicTacToe/Preparing for printing/src/TicTacToe.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/TicTacToe/Using a runner class/src/Runner.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/TicTacToe/Using a runner class/src/TicTacToe.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

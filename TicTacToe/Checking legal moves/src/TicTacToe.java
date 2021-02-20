@@ -8,7 +8,9 @@ public class TicTacToe {
         board = new int[3][3];
     }
 
-    public boolean checkEmpty(int row, int column) {
+    public boolean checkLegalMove(int row, int column) {
+        if (row<0 || row >= 3) return false;
+        if (column <0 || column >=3) return false;
         return board[row][column] == 0;
     }
 

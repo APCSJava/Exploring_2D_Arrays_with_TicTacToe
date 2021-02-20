@@ -12,9 +12,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/TicTacToe/Checking game draw" />
-            <option value="$PROJECT_DIR$/TicTacToe/Checking game won" />
-            <option value="$PROJECT_DIR$/TicTacToe/Checking spot empty" />
+            <option value="$PROJECT_DIR$/TicTacToe/Checking board full" />
+            <option value="$PROJECT_DIR$/TicTacToe/Checking legal moves" />
             <option value="$PROJECT_DIR$/TicTacToe/Initializing the board" />
             <option value="$PROJECT_DIR$/TicTacToe/Preparing for printing" />
             <option value="$PROJECT_DIR$/TicTacToe/Recording a play" />

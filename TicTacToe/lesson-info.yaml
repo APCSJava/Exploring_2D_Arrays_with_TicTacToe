@@ -4,6 +4,5 @@ content:
 - Recording a play
 - Preparing for printing
 - Using a runner class
-- Checking spot empty
-- Checking game won
-- Checking game draw
+- Checking legal moves
+- Checking board full

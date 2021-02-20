@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 173
     length: 22
-    placeholder_text: /* TODO */
+    placeholder_text: /* initialize 'board' to a 3 x 3 grid */
     dependency:
       lesson: TicTacToe
       task: Initializing the board
@@ -14,6 +14,6 @@ files:
       is_visible: false
   - offset: 423
     length: 26
-    placeholder_text: /* assign the player's value to the board */
+    placeholder_text: /* assign player to the row and column given */
 - name: test/Tests.java
   visible: false

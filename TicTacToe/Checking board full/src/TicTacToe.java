@@ -8,8 +8,21 @@ public class TicTacToe {
         board = new int[3][3];
     }
 
+    public boolean checkLegalMove(int row, int column) {
+        return board[row][column] == 0;
+    }
+
     public void place(int player, int row, int column) {
         board[row][column]=player;
+    }
+
+    public boolean checkBoardFull() {
+        for (int r = 0; r<board.length; r++) {
+            for (int c = 0; c<board[r].length; c++){
+                if (board[r][c]==0) return false;
+            }
+        }
+        return true;
     }
 
     public int[][] getBoard() {
