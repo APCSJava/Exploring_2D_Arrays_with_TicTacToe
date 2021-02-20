@@ -13,10 +13,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/TicTacToe/Checking board full" />
+            <option value="$PROJECT_DIR$/TicTacToe/Checking game won" />
             <option value="$PROJECT_DIR$/TicTacToe/Checking legal moves" />
             <option value="$PROJECT_DIR$/TicTacToe/Initializing the board" />
             <option value="$PROJECT_DIR$/TicTacToe/Preparing for printing" />
             <option value="$PROJECT_DIR$/TicTacToe/Recording a play" />
+            <option value="$PROJECT_DIR$/TicTacToe/Testing the board" />
             <option value="$PROJECT_DIR$/TicTacToe/Using a runner class" />
             <option value="$PROJECT_DIR$/Working with arrays/Dimensioning arrays" />
             <option value="$PROJECT_DIR$/Working with arrays/Initializing arrays" />

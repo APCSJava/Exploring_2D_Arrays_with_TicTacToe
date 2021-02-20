@@ -6,3 +6,5 @@ content:
 - Using a runner class
 - Checking legal moves
 - Checking board full
+- Checking game won
+- Testing the board

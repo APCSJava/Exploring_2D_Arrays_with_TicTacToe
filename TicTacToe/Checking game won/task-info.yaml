@@ -8,7 +8,7 @@ files:
     placeholder_text: /* initialize 'board' to a 3 x 3 grid */
     dependency:
       lesson: TicTacToe
-      task: Checking spot empty
+      task: Checking board full
       file: src/TicTacToe.java
       placeholder: 1
       is_visible: false
@@ -17,29 +17,39 @@ files:
     placeholder_text: /* return whether the space is available */
     dependency:
       lesson: TicTacToe
-      task: Checking spot empty
+      task: Checking board full
       file: src/TicTacToe.java
       placeholder: 2
       is_visible: false
   - offset: 408
-    length: 26
+    length: 28
     placeholder_text: /* assign player to the row and column given */
     dependency:
       lesson: TicTacToe
-      task: Checking spot empty
+      task: Checking board full
       file: src/TicTacToe.java
       placeholder: 3
       is_visible: false
-  - offset: 488
-    length: 186
+  - offset: 490
+    length: 193
     placeholder_text: /* have all spaces in the array been claimed? */
-  - offset: 774
-    length: 187
+    dependency:
+      lesson: TicTacToe
+      task: Checking board full
+      file: src/TicTacToe.java
+      placeholder: 5
+      is_visible: false
+  - offset: 951
+    length: 797
+    placeholder_text: /* determine whether the player occupies a winning configuration
+      */
+  - offset: 1848
+    length: 195
     placeholder_text: /* build and return a string that will display the requested
       data */
     dependency:
       lesson: TicTacToe
-      task: Checking spot empty
+      task: Checking board full
       file: src/TicTacToe.java
       placeholder: 4
       is_visible: false
@@ -51,7 +61,7 @@ files:
     placeholder_text: /* create an instance of the TicTacToe class and print it */
     dependency:
       lesson: TicTacToe
-      task: Checking spot empty
+      task: Checking board full
       file: src/Runner.java
       placeholder: 1
       is_visible: false
