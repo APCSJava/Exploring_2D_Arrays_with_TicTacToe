@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
@@ -61,19 +62,46 @@ public class Tests {
         t.place(3, 2, 2);
         String result = t.toString();
         int[][] test = {{1, 0, 0}, {0, 2, 0}, {0, 0, 3}};
-        String expected = Arrays.toString(test[0])+"\n"+Arrays.toString(test[1])+"\n"+Arrays.toString(test[2]);
-        assertEquals("Check string formatting", expected, result);
+        String expected = Arrays.toString(test[0]) + "\n" + Arrays.toString(test[1]) + "\n" + Arrays.toString(test[2]);
+        assertEquals("Incorrect string formatting", expected, result);
     }
 
-    // specific to task 3
+    @Test
+    public void testOutOfBoundsArrayIndicesNotLegalMoves() {
+        TicTacToe t = new TicTacToe();
+        String feedback = "Array location [%d][%d] is not legal.";
+        try {
+            t.checkLegalMove(-5, 2);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            Assert.fail(String.format(feedback, -5, 2));
+        }
+        try {
+            t.checkLegalMove(2, -1);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            Assert.fail(String.format(feedback, 2, -1));
+        }
+        try {
+            t.checkLegalMove(3, 2);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            Assert.fail(String.format(feedback, 3, 0));
+        }
+        try {
+            t.checkLegalMove(-5, 2);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            Assert.fail(String.format(feedback, 2, 3));
+        }
+    }
+
     @Test
     public void testAvailableUntilClaimed() {
         TicTacToe t = new TicTacToe();
         int[][] arr = t.getBoard();
-        String feedTrue = "Unclaimed array location (%s, %s) should return true.";
-        String feedFalse = "Claimed array location (%s, %s) should return false.";
+        String feedTrue = "Accessing unclaimed location [%d][%d] should return true.";
+        String feedFalse = "Accessing non-zero value at location [%d][%d] should return false.";
         for (int r = 0; r < arr.length; r++) {
             for (int c = 0; c < arr[r].length; c++) {
+                feedTrue = t.toString() + "\n" + feedTrue;
+                feedFalse = t.toString() + "\n" + feedFalse;
                 assertTrue(String.format(feedTrue, r, c), t.checkLegalMove(r, c));
                 t.place(Math.random() < 0.5 ? 1 : 2, r, c);
                 assertFalse(String.format(feedFalse, r, c), t.checkLegalMove(r, c));
@@ -81,13 +109,4 @@ public class Tests {
         }
     }
 
-    @Test
-    public void testOutOfBoundsArrayIndicesIllegal() {
-        TicTacToe t = new TicTacToe();
-        String feedback = "Array index %d is not legal.";
-        assertFalse(String.format(feedback, -5), t.checkLegalMove(-5, 2));
-        assertFalse(String.format(feedback, -1), t.checkLegalMove(2, -1));
-        assertFalse(String.format(feedback, 3), t.checkLegalMove(3, 2));
-        assertFalse(String.format(feedback, 3), t.checkLegalMove(2, 3));
-    }
 }

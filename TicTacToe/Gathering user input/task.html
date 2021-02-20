@@ -1,0 +1,50 @@
+<html>
+<h2>Overview and approach</h2>
+<p>To detect and respond to user input, we will use Java's built-in scanner class provided
+    by <a href="psi_element://java.util.Scanner"> java.util.Scanner</a>.
+</p>
+<p>The necessary import statement has already been added to the top of our file.
+</p>
+<h2>Declaring and initializing a scanner</h2>
+<p>Declare a local variable of type <code>Scanner</code> and initialize it to read from standard
+    input by passing the static variable <code>System.in</code> to the constructor.</p>
+
+<h2>Reading and responding to player input</h2>
+<p>You've already printed the initial board for the user. Now prompt them to enter a row and column.
+    for their move.  Read their input and use those values to mark the intended row and
+    column for player 1. Finally, display the updated board.
+</p>
+<div class="hint">
+    Since we are using integers for the row and column, you are encouraged to use the <code>nextInt</code> method
+    of the scanner.  This will read each integer of input, one at a time, allowing you to capture
+    each to a variable.
+</div>
+
+<h2>Scripting a conversation</h2>
+<p>The conversation with the player should match the format shown below. NOTE: the prompt mark, '>',
+    indicates where the player is to provide input, followed by sample data from the player. </p>
+<p>Here, the
+line '> 1 2' indicates the player is responding to the prompt with values 1 and 2. You should not make
+any attempt to print the prompt mark or the user data when printing your output.</p>
+<p>
+<blockquote>
+    [0, 0, 0]<br>
+    [0, 0, 0]<br>
+    [0, 0, 0]<br>
+    Player 1: Enter the row and column for your move:<br>
+    &gt 1 2<br>
+    [0, 0, 0]<br>
+    [0, 0, 1]<br>
+    [0, 0, 0]<br>
+</blockquote>
+</p>
+<div class="hint">
+    The prompt for player 1 should be entered exactly as shown. This is to facilitate
+    automatic testing. In the final game, you are welcome to modify the prompts as you wish.
+</div>
+
+<div class="hint">
+    A newline is expected after printing the revised board.
+</div>
+
+</html>

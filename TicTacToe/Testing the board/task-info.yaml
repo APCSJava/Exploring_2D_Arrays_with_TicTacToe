@@ -1,5 +1,7 @@
 type: theory
 files:
+- name: src/Runner.java
+  visible: true
 - name: src/TicTacToe.java
   visible: true
   placeholders:
@@ -47,7 +49,7 @@ files:
       lesson: TicTacToe
       task: Checking game won
       file: src/TicTacToe.java
-      placeholder: 6
+      placeholder: 5
       is_visible: false
   - offset: 1848
     length: 195
@@ -57,7 +59,5 @@ files:
       lesson: TicTacToe
       task: Checking game won
       file: src/TicTacToe.java
-      placeholder: 5
+      placeholder: 6
       is_visible: false
-- name: src/Runner.java
-  visible: true
