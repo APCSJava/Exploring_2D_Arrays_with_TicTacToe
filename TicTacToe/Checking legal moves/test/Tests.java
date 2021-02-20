@@ -1,4 +1,5 @@
 import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
 
 import java.util.Arrays;
 
@@ -78,5 +79,15 @@ public class Tests {
                 assertFalse(String.format(feedFalse, r, c), t.checkLegalMove(r, c));
             }
         }
+    }
+
+    @Test
+    public void testOutOfBoundsArrayIndicesIllegal() {
+        TicTacToe t = new TicTacToe();
+        String feedback = "Array index %d is not legal.";
+        assertFalse(String.format(feedback, -5), t.checkLegalMove(-5, 2));
+        assertFalse(String.format(feedback, -1), t.checkLegalMove(2, -1));
+        assertFalse(String.format(feedback, 3), t.checkLegalMove(3, 2));
+        assertFalse(String.format(feedback, 3), t.checkLegalMove(2, 3));
     }
 }
