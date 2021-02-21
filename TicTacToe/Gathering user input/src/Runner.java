@@ -8,6 +8,7 @@ public class Runner {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Player 1: Enter the row and column for your move:");
+        System.out.println();
         int r = scan.nextInt();
         int c = scan.nextInt();
         game.place(1, r, c);

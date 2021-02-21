@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 180
-    length: 246
+    length: 276
     placeholder_text: /* declare, initialize and read from a scanner to produce the
       expected conversation */
 - name: src/TicTacToe.java
