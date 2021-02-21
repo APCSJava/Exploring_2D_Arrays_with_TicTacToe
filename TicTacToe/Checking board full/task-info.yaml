@@ -30,11 +30,11 @@ files:
       file: src/TicTacToe.java
       placeholder: 3
       is_visible: false
-  - offset: 488
+  - offset: 603
     length: 186
     placeholder_text: /* have all spaces in the array been claimed? */
-  - offset: 774
-    length: 187
+  - offset: 897
+    length: 179
     placeholder_text: /* build and return a string that will display the requested
       data */
     dependency:

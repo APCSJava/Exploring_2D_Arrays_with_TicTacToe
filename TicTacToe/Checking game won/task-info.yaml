@@ -39,12 +39,12 @@ files:
       file: src/TicTacToe.java
       placeholder: 4
       is_visible: false
-  - offset: 951
+  - offset: 963
     length: 797
     placeholder_text: /* determine whether the player occupies a winning configuration
       */
-  - offset: 1848
-    length: 195
+  - offset: 1868
+    length: 187
     placeholder_text: /* build and return a string that will display the requested
       data */
     dependency:

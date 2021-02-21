@@ -14,6 +14,5 @@ public class Runner {
         game.checkGameWon(1); // false, player 1 has not won
         game.checkGameWon(2); // true, player 2 has the middle row
         System.out.println(game);
-        // need to tighten up the debugger -- where show returned values?
     }
 }

@@ -1,0 +1,24 @@
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Player 1: Enter the row and column for your move:
+[0, 0, 0]
+[0, 1, 0]
+[0, 0, 0]
+Player 2: Enter the row and column for your move:
+[0, 2, 0]
+[0, 1, 0]
+[0, 0, 0]
+Player 1: Enter the row and column for your move:
+[0, 2, 1]
+[0, 1, 0]
+[0, 0, 0]
+Player 2: Enter the row and column for your move:
+[0, 2, 1]
+[2, 1, 0]
+[0, 0, 0]
+Player 1: Enter the row and column for your move:
+[0, 2, 1]
+[2, 1, 0]
+[1, 0, 0]
+Player 1 wins!

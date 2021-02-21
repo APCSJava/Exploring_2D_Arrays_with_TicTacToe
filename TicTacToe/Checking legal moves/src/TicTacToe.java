@@ -8,6 +8,13 @@ public class TicTacToe {
         board = new int[3][3];
     }
 
+    /**
+     * Verifies that the row and column provided exist within the array
+     * and that the array holds a 0 at that location, indicating availability.
+     * @param row
+     * @param column
+     * @return the row and column locate an unclaimed space
+     */
     public boolean checkLegalMove(int row, int column) {
         if (row<0 || row >= 3) return false;
         if (column <0 || column >=3) return false;

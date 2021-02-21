@@ -1,0 +1,103 @@
+<html>
+<h2>Playing an honest, legal game</h2>
+<p>As a first approximation to a fully playable game, assume that play begins with player
+  1 and then alternates with player 2 until either one of the players has won the game or
+  until the board is full.</p>
+<p>In this version, assume that each player will provide only valid, legal moves as input.</p>
+<div class="hint">
+  You should not have to change anything in the TicTacToe class.  All work should be
+done in the Runner class.
+</div>
+
+<h2>Sample game that leads to a draw</h2>
+<blockquote>
+  [0, 0, 0]<br>
+  [0, 0, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 1: Enter the row and column for your move:<br>
+  <br>
+  > 0 0<br><br>
+  [1, 0, 0]<br>
+  [0, 0, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 2: Enter the row and column for your move:<br>
+  <br>
+  > 1 1<br><br>
+  [1, 0, 0]<br>
+  [0, 2, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 1: Enter the row and column for your move:<br>
+  <br>
+  > 0 1<br><br>
+  [1, 1, 0]<br>
+  [0, 2, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 2: Enter the row and column for your move:<br>
+  <br>
+  > 0 2<br><br>
+  [1, 1, 2]<br>
+  [0, 2, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 1: Enter the row and column for your move:<br>
+  <br>
+  > 2 0<br><br>
+  [1, 1, 2]<br>
+  [0, 2, 0]<br>
+  [1, 0, 0]<br><br>
+  Player 2: Enter the row and column for your move:<br>
+  <br>
+  > 1 0<br><br>
+  [1, 1, 2]<br>
+  [2, 2, 0]<br>
+  [1, 0, 0]<br><br>
+  Player 1: Enter the row and column for your move:<br><br>
+  > 1 2<br><br>
+  [1, 1, 2]<br>
+  [2, 2, 1]<br>
+  [1, 0, 0]<br><br>
+  Player 2: Enter the row and column for your move:<br><br>
+  > 2 1<br><br>
+  [1, 1, 2]<br>
+  [2, 2, 1]<br>
+  [1, 2, 0]<br>  <br>
+  Player 1: Enter the row and column for your move:<br><br>
+  > 2 2<br>  <br>
+  [1, 1, 2]<br>
+  [2, 2, 1]<br>
+  [1, 2, 1]<br><br>
+  Game is a draw.<br>
+</blockquote>
+
+<h2>Sample game that leads to a win</h2>
+<blockquote>
+  [0, 0, 0]<br>
+  [0, 0, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 1: Enter the row and column for your move:<br><br>
+  > 1 1<br><br>
+  [0, 0, 0]<br>
+  [0, 1, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 2: Enter the row and column for your move:<br><br>
+  > 0 1<br><br>
+  [0, 2, 0]<br>
+  [0, 1, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 1: Enter the row and column for your move:<br><br>
+  > 0 2<br><br>
+  [0, 2, 1]<br>
+  [0, 1, 0]<br>
+  [0, 0, 0]<br><br>
+  Player 2: Enter the row and column for your move:<br><br>
+  > 1 0<br><br>
+  [0, 2, 1]<br>
+  [2, 1, 0]<br>
+  [0, 0, 0]<br>
+  Player 1: Enter the row and column for your move:<br><br>
+  > 2 0<br><br>
+  [0, 2, 1]<br>
+  [2, 1, 0]<br>
+  [1, 0, 0]<br>
+  Player 1 wins!<br>
+</blockquote>
+</html>

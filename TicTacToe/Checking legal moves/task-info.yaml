@@ -12,10 +12,10 @@ files:
       file: src/TicTacToe.java
       placeholder: 1
       is_visible: false
-  - offset: 208
+  - offset: 474
     length: 127
     placeholder_text: /* return whether the space is available */
-  - offset: 408
+  - offset: 674
     length: 26
     placeholder_text: /* assign player to the row and column given */
     dependency:
@@ -24,8 +24,8 @@ files:
       file: src/TicTacToe.java
       placeholder: 2
       is_visible: false
-  - offset: 534
-    length: 187
+  - offset: 808
+    length: 179
     placeholder_text: /* build and return a string that will display the requested
       data */
     dependency:

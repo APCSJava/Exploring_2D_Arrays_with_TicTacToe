@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/TicTacToe/Taking turns/src/Runner.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/TicTacToe/Testing the board/src/Runner.java">
           <value>
             <Attribute>

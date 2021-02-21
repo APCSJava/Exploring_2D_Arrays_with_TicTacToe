@@ -18,6 +18,10 @@ public class TicTacToe {
         board[row][column]=player;
     }
 
+    /**
+     * Returns whether all spaces on the board have been claimed.
+     * @return the board is full
+     */
     public boolean checkBoardFull() {
         for (int r = 0; r<board.length; r++) {
             for (int c = 0; c<board[r].length; c++){

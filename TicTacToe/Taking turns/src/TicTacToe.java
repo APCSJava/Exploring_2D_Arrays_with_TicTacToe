@@ -28,8 +28,7 @@ public class TicTacToe {
     }
 
     /**
-     * Determines whether the indicated player occupies three spaces that form
-     * a winning configuration.
+     * Examine the board to determine whether the given player has achieved a winning combination.
      *
      * @param player the player to check
      * @return has the player won the game
