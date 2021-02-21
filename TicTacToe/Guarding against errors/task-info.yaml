@@ -4,8 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 193
-    length: 674
+    length: 881
     placeholder_text: /* produce a game that plays as described */
+    dependency:
+      lesson: TicTacToe
+      task: Taking turns
+      file: src/Runner.java
+      placeholder: 1
+      is_visible: false
 - name: src/TicTacToe.java
   visible: true
   placeholders:
@@ -14,7 +20,7 @@ files:
     placeholder_text: /* initialize 'board' to a 3 x 3 grid */
     dependency:
       lesson: TicTacToe
-      task: Gathering user input
+      task: Taking turns
       file: src/TicTacToe.java
       placeholder: 1
       is_visible: false
@@ -23,7 +29,7 @@ files:
     placeholder_text: /* return whether the space is available */
     dependency:
       lesson: TicTacToe
-      task: Gathering user input
+      task: Taking turns
       file: src/TicTacToe.java
       placeholder: 2
       is_visible: false
@@ -32,7 +38,7 @@ files:
     placeholder_text: /* assign player to the row and column given */
     dependency:
       lesson: TicTacToe
-      task: Gathering user input
+      task: Taking turns
       file: src/TicTacToe.java
       placeholder: 3
       is_visible: false
@@ -41,7 +47,7 @@ files:
     placeholder_text: /* have all spaces in the array been claimed? */
     dependency:
       lesson: TicTacToe
-      task: Gathering user input
+      task: Taking turns
       file: src/TicTacToe.java
       placeholder: 4
       is_visible: false
@@ -51,7 +57,7 @@ files:
       */
     dependency:
       lesson: TicTacToe
-      task: Gathering user input
+      task: Taking turns
       file: src/TicTacToe.java
       placeholder: 5
       is_visible: false
@@ -61,25 +67,17 @@ files:
       data */
     dependency:
       lesson: TicTacToe
-      task: Gathering user input
+      task: Taking turns
       file: src/TicTacToe.java
       placeholder: 6
       is_visible: false
 - name: test/Tests.java
   visible: false
-- name: test/sample_draw_input.txt
+- name: test/hidden_illegal_input.txt
   visible: false
-- name: test/sample_draw_output.txt
+- name: test/hidden_illegal_output.txt
   visible: false
-- name: test/sample_win_input.txt
+- name: test/sample_illegal_input.txt
   visible: false
-- name: test/sample_win_output.txt
-  visible: false
-- name: test/hidden_draw_input.txt
-  visible: false
-- name: test/hidden_draw_output.txt
-  visible: false
-- name: test/hidden_win_input.txt
-  visible: false
-- name: test/hidden_win_output.txt
+- name: test/sample_illegal_output.txt
   visible: false

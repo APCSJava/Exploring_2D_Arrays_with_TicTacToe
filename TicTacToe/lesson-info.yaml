@@ -10,3 +10,4 @@ content:
 - Testing the board
 - Gathering user input
 - Taking turns
+- Guarding against errors

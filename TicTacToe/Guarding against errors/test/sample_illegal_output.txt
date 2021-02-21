@@ -1,0 +1,27 @@
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Player 1: Enter the row and column for your move:
+[0, 0, 0]
+[0, 1, 0]
+[0, 0, 0]
+Player 2: Enter the row and column for your move:
+Illegal move.  Please try again:
+Illegal move.  Please try again:
+[0, 0, 0]
+[2, 1, 0]
+[0, 0, 0]
+Player 1: Enter the row and column for your move:
+Illegal move.  Please try again:
+[1, 0, 0]
+[2, 1, 0]
+[0, 0, 0]
+Player 2: Enter the row and column for your move:
+[1, 0, 0]
+[2, 1, 2]
+[0, 0, 0]
+Player 1: Enter the row and column for your move:
+[1, 0, 0]
+[2, 1, 2]
+[0, 0, 1]
+Player 1 wins!

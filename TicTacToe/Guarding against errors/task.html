@@ -1,0 +1,55 @@
+<html>
+<p>
+Previously, we assumed that the player would submit only legal moves -- what should happen
+    if the player enters an illegal move?</p>
+<h2>Updating the game loop</h2>
+<p>Once you have collected the row and column from a player's input, check to see if
+the row and column provided constitute a legal move.  If so, handle as you did before.  If not,
+print an error message and request fresh input.  Continue this process until a legal move
+is provided.</p>
+<p>You do not need to worry about the player entering gibberish (ie. "Xy47zQ 5R").  Assume they
+    continue to enter two integers but do check these integers to verify that the row and column
+are on the board and the space is unclaimed.</p>
+<div class="hint">
+  You previously implemented a method to check against illegal moves.  Use it.
+</div>
+<h2>Sample game illustrating how to handle illegal moves</h2>
+<blockquote>
+    [0, 0, 0]<br>
+    [0, 0, 0]<br>
+    [0, 0, 0]<br><br>
+    Player 1: Enter the row and column for your move:<br><br>
+    > 1 1<br><br>
+    [0, 0, 0]<br>
+    [0, 1, 0]<br>
+    [0, 0, 0]<br><br>
+    Player 2: Enter the row and column for your move:<br><br>
+    > 1 1<br><br>
+    Illegal move.  Please try again:<br><br>
+    > -1 0<br><br>
+    Illegal move.  Please try again:<br><br>
+    > 1 0<br><br>
+    [0, 0, 0]<br>
+    [2, 1, 0]<br>
+    [0, 0, 0]<br><br>
+    Player 1: Enter the row and column for your move:<br><br>
+    > 1 1<br><br>
+    Illegal move.  Please try again:<br><br>
+    > 0 0<br><br>
+    [1, 0, 0]<br>
+    [2, 1, 0]<br>
+    [0, 0, 0]<br><br>
+    Player 2: Enter the row and column for your move:<br><br>
+    > 1 2<br><br>
+    [1, 0, 0]<br>
+    [2, 1, 2]<br>
+    [0, 0, 0]<br><br>
+    Player 1: Enter the row and column for your move:<br><br>
+    > 2 2<br><br>
+    [1, 0, 0]<br>
+    [2, 1, 2]<br>
+    [0, 0, 1]<br><br>
+    Player 1 wins!<br>
+</blockquote>
+
+</html>
