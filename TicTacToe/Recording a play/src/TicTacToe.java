@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class TicTacToe {
 
     private int[][] board;

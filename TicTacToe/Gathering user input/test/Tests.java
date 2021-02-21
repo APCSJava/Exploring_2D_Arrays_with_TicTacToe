@@ -48,7 +48,7 @@ public class Tests {
 
     @Test
     public void byteArraySameAllowingInternalNewlines() throws IOException {
-        final FileInputStream fips = new FileInputStream(new File(inputFile));
+        final FileInputStream fips = new FileInputStream(inputFile);
         System.setIn(fips);
         Runner.main(new String[]{});
         byte[] actual = outContent.toByteArray();
@@ -79,5 +79,6 @@ public class Tests {
             if (i == actual.length && j < expected.length) i--;
             if (j == expected.length && i < actual.length) j--;
         }
+        fips.close();
     }
 }
