@@ -34,8 +34,9 @@ public class Tests {
         final FileInputStream fips = new FileInputStream(new File("test/input_sample.txt"));
         System.setIn(fips);
         Runner.main(new String[] {});
-        String actual = outContent.toString();
-        String expected = Files.readString(Paths.get("test/output_sample.txt"));
+        // .trim() to disregard final line endings/print vs println, etc.
+        String actual = outContent.toString().trim();
+        String expected = Files.readString(Paths.get("test/output_sample.txt")).trim();
         assertEquals("Output does not match", expected, actual);
 
     }
@@ -45,9 +46,8 @@ public class Tests {
         final FileInputStream fips = new FileInputStream(new File("test/input_hidden.txt"));
         System.setIn(fips);
         Runner.main(new String[] {});
-        String actual = outContent.toString();
-        String expected = Files.readString(Paths.get("test/output_hidden.txt"));
+        String actual = outContent.toString().trim();
+        String expected = Files.readString(Paths.get("test/output_hidden.txt")).trim();
         assertEquals("Output does not match", expected, actual);
-
     }
 }
