@@ -1,0 +1,35 @@
+<html>
+<p>The basic functionality of the game has been established.  </p>
+<p>What follow are some challenges you can undertake on your own to make
+the game better.</p>
+<h2>Offering repeat plays</h2>
+<p>Currently, the game plays only a single round and then exits.  To keep players
+    from having to restart the program, ask the player, "Would you like to play again?"
+    after the conclusion of each round.  If the player
+responds "Y" or -1 or some signal value of your choosing, play the game again.  Continue until
+the player responds "N" or 0 or some other signal value.</p>
+<p>You can also keep monitor and alternate initial players each round.</p>
+<h2>Keeping score</h2>
+<p>If offering to let the game play over and over, keep track of how many times
+each player has won.  Update and display these totals at the conclusion of each round
+    and at the conclusion of the game.</p>
+<h2>Shaking up the strings</h2>
+<p>Perhaps you would prefer to see 'X' and 'O' rather than 1 and 0.  If so, consider
+how you might change the display of the board.  See if you can accomplish this
+    <b><i>without</i></b> modifying the TicTacToe class.</p>
+<div class="hint">
+  The String class has a method, replace, that can substitute one character for
+another.  Use this method to modify the string received from the game before
+displaying to the players.
+</div>
+<div class="hint">
+  A second way to display the grid differently would be to get the game board using
+its public getter method rather than relying on the result of <code>game.toString()</code>.
+    Then, build the string in the Runner class, perhaps in a private, static helper method.
+</div>
+<h2>Adding your own flair</h2>
+<p>Make any additions to the game that you wish.  Modify the prompts, edit the
+response strings, etc.  Have fun!</p>
+<p>There is no automated test for this task, so once you are satisfied with your work,
+you are done!</p>
+</html>

@@ -1,0 +1,73 @@
+type: theory
+files:
+- name: src/Runner.java
+  visible: true
+  placeholders:
+  - offset: 193
+    length: 881
+    placeholder_text: /* produce a game that plays as described */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/Runner.java
+      placeholder: 1
+      is_visible: false
+- name: src/TicTacToe.java
+  visible: true
+  placeholders:
+  - offset: 113
+    length: 22
+    placeholder_text: /* initialize 'board' to a 3 x 3 grid */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/TicTacToe.java
+      placeholder: 1
+      is_visible: false
+  - offset: 208
+    length: 127
+    placeholder_text: /* return whether the space is available */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/TicTacToe.java
+      placeholder: 2
+      is_visible: false
+  - offset: 408
+    length: 28
+    placeholder_text: /* assign player to the row and column given */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/TicTacToe.java
+      placeholder: 3
+      is_visible: false
+  - offset: 490
+    length: 193
+    placeholder_text: /* have all spaces in the array been claimed? */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/TicTacToe.java
+      placeholder: 4
+      is_visible: false
+  - offset: 951
+    length: 797
+    placeholder_text: /* determine whether the player occupies a winning configuration
+      */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/TicTacToe.java
+      placeholder: 5
+      is_visible: false
+  - offset: 1856
+    length: 187
+    placeholder_text: /* build and return a string that will display the requested
+      data */
+    dependency:
+      lesson: TicTacToe
+      task: Guarding against errors
+      file: src/TicTacToe.java
+      placeholder: 6
+      is_visible: false
